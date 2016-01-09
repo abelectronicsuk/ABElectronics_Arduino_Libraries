@@ -19,3 +19,5 @@ Download the zip file containing the Arduino libraries from GitHub and follow th
 
 **ABElectronics_IOPi** directory contains a Arduino library to use with our IO Pi / IO Pi Plus expansion board from [https://www.abelectronics.co.uk/p/54/IO-Pi-Plus](https://www.abelectronics.co.uk/p/54/IO-Pi-Plus)
 
+**ABElectronics_ServoPWMPi** directory contains a Arduino library to use with our Servo PWM Pi expansion board from [https://www.abelectronics.co.uk/p/44/Servo-PWM-Pi](https://www.abelectronics.co.uk/p/44/Servo-PWM-Pi)
+
