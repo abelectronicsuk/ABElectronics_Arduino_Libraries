@@ -2,6 +2,8 @@
 #include "SPI.h"
 #include "ABElectronics_ADCDACPi.h"
 
+static byte adctx[] = { 0x01, 0x80, 0x00 }; // transmit buffer for the ADC
+
 ABElectronics_ADCDACPi::ABElectronics_ADCDACPi()
 {
 	pinMode(SS, OUTPUT);
@@ -21,15 +23,20 @@ float ABElectronics_ADCDACPi::readVoltage(int channel) {
 
 long ABElectronics_ADCDACPi::readRaw(int channel) {
   // reads the raw value from the selected adc channel - channels 1 to 2
-	byte commandbits = B00001101;
-	unsigned int b1 = 0;
-	unsigned int b2 = 0;
-	commandbits|=((channel-1)<<1);         // update the command bit to select either ch 1 or 2
-	digitalWrite(cs, LOW);
-	SPI.transfer(commandbits);
-	const int hi = SPI.transfer(b1);       // read back the result high byte
-	const int lo = SPI.transfer(b2);       // then the low byte
-	digitalWrite(cs, HIGH);
+	if (channel == 1) {
+	    adctx[1] = 0x80;
+	  } else if (channel == 2) {
+	    adctx[1] = 0xC0;
+	  } else {
+	    return (0);
+	  }
+
+	  digitalWrite(cs, LOW);
+	  SPI.transfer(adctx[0]);
+	  int hi = SPI.transfer(adctx[1]);       // read back the result high byte
+	  int lo = SPI.transfer(adctx[2]);       // then the low byte
+	  digitalWrite(cs, HIGH);
+
 	return (short)(((hi & 0x0F) << 8) + (lo)); // combine the bytes to create the return raw value
 }
 
