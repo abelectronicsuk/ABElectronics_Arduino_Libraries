@@ -11,7 +11,7 @@ Download the zip file containing the Arduino libraries from GitHub and follow th
 
 ## Custom Libraries ##
 
-**ABElectronics_ADCPi** directory contains a Arduino library to use with our ADC Pi and ADC Pi Plus expansion boards from [https://www.abelectronics.co.uk/p/56/ADC-Pi-Plus---Raspberry-Pi-Analogue-to-Digital-converter](https://www.abelectronics.co.uk/p/56/ADC-Pi-Plus---Raspberry-Pi-Analogue-to-Digital-converter)
+**ABElectronics_ADCPi** directory contains a Arduino library to use with our ADC Pi Zero and ADC Pi Plus expansion boards from [https://www.abelectronics.co.uk/p/56/ADC-Pi-Plus-Raspberry-Pi-Analogue-to-Digital-converter](https://www.abelectronics.co.uk/p/56/ADC-Pi-Plus-Raspberry-Pi-Analogue-to-Digital-converter)
 
 **ABElectronics_ADCDifferentialPi** directory contains a Arduino library to use with our ADC Differential Pi and Delta Sigma Pi expansion boards from [https://www.abelectronics.co.uk/p/65/ADC-Differential-Pi-Raspberry-Pi-Analogue-to-Digital-converter](https://www.abelectronics.co.uk/p/65/ADC-Differential-Pi-Raspberry-Pi-Analogue-to-Digital-converter)
 
