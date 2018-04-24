@@ -2,7 +2,7 @@
 
 This library allows you to control the ADC Pi 8 channel ADC board from AB Electronics UK
 
-https://www.abelectronics.co.uk/p/56/ADC-Pi-Plus---Raspberry-Pi-Analogue-to-Digital-converter
+https://www.abelectronics.co.uk/p/69/ADC-Pi-Raspberry-Pi-Analogue-to-Digital-converter
 
 For more information about this library please visit us at
 https://www.abelectronics.co.uk/kb/article/32/arduino-library-and-demos
