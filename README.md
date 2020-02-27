@@ -11,13 +11,13 @@ Download the zip file containing the Arduino libraries from GitHub and follow th
 
 ## Custom Libraries ##
 
-**ABElectronics_ADCPi** directory contains a Arduino library to use with our ADC Pi expansion boards from [https://www.abelectronics.co.uk/p/69/ADC-Pi-Raspberry-Pi-Analogue-to-Digital-converter](https://www.abelectronics.co.uk/p/69/ADC-Pi-Raspberry-Pi-Analogue-to-Digital-converter)
+**ABElectronics_ADCPi** directory contains a Arduino library to use with our ADC Pi expansion boards from [https://www.abelectronics.co.uk/p/69/adc-pi-raspberry-pi-analogue-to-digital-converter](https://www.abelectronics.co.uk/p/69/adc-pi-raspberry-pi-analogue-to-digital-converter)
 
-**ABElectronics_ADCDifferentialPi** directory contains a Arduino library to use with our ADC Differential Pi and Delta Sigma Pi expansion boards from [https://www.abelectronics.co.uk/p/65/ADC-Differential-Pi-Raspberry-Pi-Analogue-to-Digital-converter](https://www.abelectronics.co.uk/p/65/ADC-Differential-Pi-Raspberry-Pi-Analogue-to-Digital-converter)
+**ABElectronics_ADCDifferentialPi** directory contains a Arduino library to use with our ADC Differential Pi and Delta Sigma Pi expansion boards from [https://www.abelectronics.co.uk/p/65/adc-differential-pi-raspberry-pi-analogue-to-digital-converter](https://www.abelectronics.co.uk/p/65/adc-differential-pi-raspberry-pi-analogue-to-digital-converter)
 
-**ABElectronics_ADCDACPi** directory contains a Arduino library to use with our ADC DAC Pi expansion board from [https://www.abelectronics.co.uk/p/39/ADC-DAC-Pi-Raspberry-Pi-ADC-and-DAC-expansion-board](https://www.abelectronics.co.uk/p/39/ADC-DAC-Pi-Raspberry-Pi-ADC-and-DAC-expansion-board)
+**ABElectronics_ADCDACPi** directory contains a Arduino library to use with our ADC DAC Pi expansion board from [https://www.abelectronics.co.uk/p/74/adc-dac-pi-zero-raspberry-pi-adc-and-dac-expansion-board](https://www.abelectronics.co.uk/p/74/adc-dac-pi-zero-raspberry-pi-adc-and-dac-expansion-board)
 
-**ABElectronics_IOPi** directory contains a Arduino library to use with our IO Pi / IO Pi Plus expansion board from [https://www.abelectronics.co.uk/p/54/IO-Pi-Plus](https://www.abelectronics.co.uk/p/54/IO-Pi-Plus)
+**ABElectronics_IOPi** directory contains a Arduino library to use with our IO Pi / IO Pi Plus expansion board from [https://www.abelectronics.co.uk/p/54/io-pi-plus](https://www.abelectronics.co.uk/p/54/io-pi-plus)
 
-**ABElectronics_ServoPWMPi** directory contains a Arduino library to use with our Servo PWM Pi expansion board from [https://www.abelectronics.co.uk/p/44/Servo-PWM-Pi](https://www.abelectronics.co.uk/p/44/Servo-PWM-Pi)
+**ABElectronics_ServoPWMPi** directory contains a Arduino library to use with our Servo PWM Pi expansion board from [https://www.abelectronics.co.uk/p/72/servo-pwm-pi](https://www.abelectronics.co.uk/p/72/servo-pwm-pi)
 
