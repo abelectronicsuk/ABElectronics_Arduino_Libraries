@@ -2,7 +2,9 @@
 #include <Wire.h>
 #include "ABElectronics_IOPi.h"
 
-
+/// Note: Microchip recommends that pin 8 (GPA7) and pin 16 (GPB7) are used as outputs only.  
+/// This change was made for revision D MCP23017 chips manufactured after June 2020. 
+/// See the MCP23017 datasheet https://www.abelectronics.co.uk/docs/pdf/microchip-mcp23017.pdf for more information.  
 
 
 ABElectronics_IOPi::ABElectronics_IOPi(byte icaddress)
